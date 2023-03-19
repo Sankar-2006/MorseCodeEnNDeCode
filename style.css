@@ -47,9 +47,11 @@ section label {
 	transform: translateY(-30px);
 	font-size: 20px;
 	cursor: pointer;
+	background-color: #fff;
 }
 
 section input[type = text] {
+	background-color: #fff;
 	transform: translateY(-10px);
 	padding: 7px;
 	width: 50%;
