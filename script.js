@@ -1,4 +1,4 @@
-const convertBtn = document.getElementById("convert");
+Byconst convertBtn = document.getElementById("convert");
 let outputArea = document.getElementById("outPutContainer");
 
 const enCode = {
@@ -71,7 +71,7 @@ let output = "";
       output += enCode[input[i]] + " ";
     } else {
       if(enCode[input[i]] === " "){
-      output += input[i] + "\";
+      output += "\";
       }else {
       output += input[i] + " ";
       }
