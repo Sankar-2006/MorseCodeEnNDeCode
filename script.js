@@ -1,4 +1,4 @@
-Byconst convertBtn = document.getElementById("convert");
+const convertBtn = document.getElementById("convert");
 let outputArea = document.getElementById("outPutContainer");
 
 const enCode = {
