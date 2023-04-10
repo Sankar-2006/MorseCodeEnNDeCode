@@ -70,11 +70,7 @@ let output = "";
     if (enCode[input[i]]) {
       output += enCode[input[i]] + " ";
     } else {
-      if(enCode[input[i]] === " "){
-      output += "\";
-      }else {
       output += input[i] + " ";
-      }
     }
   }
   outputArea.innerText = output;
