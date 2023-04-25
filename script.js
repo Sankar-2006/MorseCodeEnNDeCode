@@ -69,6 +69,8 @@ let output = "";
   for (let i = 0; i < input.length; i++) {
     if (enCode[input[i]]) {
       output += enCode[input[i]] + " ";
+    } else if (input[i] === " ") {
+      output += "/" + " "
     } else {
       output += input[i] + " ";
     }

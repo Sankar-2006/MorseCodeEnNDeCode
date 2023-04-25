@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Roboto', sans-serif;
+	font-family: monospace;
 	text-decoration: none;
+	user-select: none;
 }
 
 body {
@@ -47,18 +46,16 @@ section label {
 	transform: translateY(-30px);
 	font-size: 20px;
 	cursor: pointer;
-	color: #fff;
 }
 
-section input[type = text] {
-	background-color: #fff;
+section input[type=text] {
 	transform: translateY(-10px);
 	padding: 7px;
 	width: 50%;
 	outline: none;
 }
 
-section input[type = submit] {
+section input[type=submit] {
 	transform: translateY(20px);
 	height: 40px;
 	width: 150px;
@@ -97,4 +94,6 @@ section a {
 	outline: none;
 	padding: 20px;
 	transform: translateY(90px);
+	cursor: text;
+	user-select: text;
 }
