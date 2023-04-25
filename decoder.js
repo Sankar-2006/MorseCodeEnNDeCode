@@ -1,5 +1,3 @@
-window.alert("Note, This converter will not add space between words.")
-
 let input = document.getElementById("text")
 const convertBtn = document.getElementById("convert");
 let outputArea = document.getElementById("outPutContainer");
@@ -60,7 +58,7 @@ const deCode = {
   ".-..-.": "\"",
   "...-..-": "$",
   ".--.-.": "@",
-  "/":" "
+  "/": " "
 }
 
 
